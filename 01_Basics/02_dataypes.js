@@ -13,3 +13,14 @@ console.log(3 +
 // bigint
 // string => ""
 // boolean => true/false
+// null = standalone value
+// undefine => 
+// symbol => unique
+
+
+console.log(typeof "Hello");
+console.log(typeof 45);
+console.log(typeof null);
+console.log(typeof undefined);
+
+
