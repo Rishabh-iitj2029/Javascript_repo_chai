@@ -4,6 +4,7 @@ let score1= "33abc"
 console.log(typeof score);
 console.log(typeof score1)
 
+
 ValueInNumber = Number(score1)
 console.log(ValueInNumber);
 
@@ -29,4 +30,4 @@ let someNumber = 33
 let inString = String(someNumber)
 let inBool = Boolean(someNumber)
 
-console.table([inString, inBool, ])
+console.table([inString, inBool, typeof inString])
