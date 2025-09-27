@@ -32,3 +32,36 @@ function loggedInUser(username = "Sam"){
 }
 
 const msg = loggedInUser()
+
+
+// Using arrray and objects in functions
+
+function calcSum(val1, val2,...num){ //...num can multiple parameter
+    return num;
+}
+console.log(calcSum(45, 12, 78, 65))
+
+const user = {
+    username : "Rishabh",
+    price: "155"
+}
+
+function handleObject(anyObject){
+    console.log(`The username is ${anyObject.username} and the course price is ${anyObject.price}`)
+
+}
+
+handleObject(user)
+handleObject(
+    {
+        user:"Akshat",
+        price: "254"
+    }
+)
+const myNewArr = [400, 500, 800, 700 ]
+
+function handleArray(newarr){
+    return (newarr[1], newarr[3])
+}
+const data = handleArray(myNewArr)
+console.log(data);
