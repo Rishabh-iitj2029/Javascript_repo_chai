@@ -15,7 +15,7 @@ user.welcome()
 console.log(this); // in nodejs compiler it is a empty object while in browser it non-empty and contain windows element
 
 
-// ***********************************************************************
+// ******************Arrow Function**********************
 
 // function chai(){
 //     const username = "Rishabh"
@@ -23,6 +23,8 @@ console.log(this); // in nodejs compiler it is a empty object while in browser i
 // }
 
 // chai()
+
+
 
 const chai = () => {
     let username = "Rishabh"
