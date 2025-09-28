@@ -1,3 +1,15 @@
+//Method => 1 
+function function_name(){
+    /*Syntax*/
+}
+// Method => 2
+
+const function_name = function(){
+    /*Synatx*/
+}
+
+
+
 function SayName(){
     console.log("H");
     console.log("A");
