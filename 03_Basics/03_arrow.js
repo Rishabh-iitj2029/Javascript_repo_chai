@@ -23,3 +23,31 @@ console.log(this); // in nodejs compiler it is a empty object while in browser i
 // }
 
 // chai()
+
+const chai = () => {
+    let username = "Rishabh"
+    console.log(this.username);
+    
+}
+
+// chai()
+
+
+//********************Arrow Function*********************** */
+//Method - 1
+
+// const AddTwo = (num1, num2) => {
+//     return num1+ num2
+// }
+
+// console.log(AddTwo(45, 55));
+
+//Method - 2
+
+// const AddTwo = (num1, num2) => (num1 + num2)  //parenthesis directly return nthe value
+
+// console.log(AddTwo(78, 89))
+
+const AddTwo = () => ({username : "rishabh"})
+
+console.log(AddTwo());
