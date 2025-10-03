@@ -21,13 +21,15 @@
     }
 
     addLangauge("Python")
-    addLangauge("Golan")
+    addLangauge("Golanguage")
     addLangauge("Java")
     addLangauge("Rust")
 
     // Editing element
+    const ulist = document.querySelector(".language")
     const secLan = document.querySelector("li:nth-child(2)")
-    console.log(secLan);
+    // console.log(typeof(secLan));
+    
     // const newLan = document.createTextNode("Kotlin")
     const newLi = document.createElement("li")
     newLi.innerHTML = "Kotlin"
