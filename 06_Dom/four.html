@@ -6,15 +6,51 @@
     <title>Coding with chai |DOM</title>
 </head>
 <body style="background-color: #212121; color:white">
-    <ul class="langauage">
+    <ul class="langauge">
         <li>JavaScript</li>
     </ul>
 </body>
 <script>
-    function addLangauge(langauge){
-        const kangauge = document.createElement("langauge")
+    //Adding elements
+    function addLangauge(langName){
+        const lis = document.createElement("li") //created element li
+        const addLan = document.createTextNode(langName) // text to be added
+        lis.appendChild(addLan) // adding the text using the appendChild
+        document.querySelector(".langauge").appendChild(lis) //adding the li to the .language class
 
-        
     }
+
+    addLangauge("Python")
+    addLangauge("Golan")
+    addLangauge("Java")
+    addLangauge("Rust")
+
+    // Editing element
+    const secLan = document.querySelector("li:nth-child(2)")
+    console.log(secLan);
+    // const newLan = document.createTextNode("Kotlin")
+    const newLi = document.createElement("li")
+    newLi.innerHTML = "Kotlin"
+    
+    secLan.replaceWith(newLi)
+
+    // edit
+
+    function changeLan(langName, index){
+        const lang = document.querySelector(`li:nth-child(${index})`)
+        const newli = document.createElement("li")
+        newli.innerText = langName
+        lang.replaceWith(newli)
+    }
+    changeLan("react", 1)
+
+    //remove
+
+    const remLan = document.querySelector("li:last-child")
+    // console.log(remLan)
+    remLan.remove()
+
+
+    
 </script>
 </html>
