@@ -46,7 +46,7 @@ const chai = () => {
 
 //Method - 2
 
-// const AddTwo = (num1, num2) => (num1 + num2)  //parenthesis directly return nthe value
+// const AddTwo = (num1, num2) => (num1 + num2)  //parenthesis directly return the value
 
 // console.log(AddTwo(78, 89))
 

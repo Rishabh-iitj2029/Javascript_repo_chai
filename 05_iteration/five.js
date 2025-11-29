@@ -46,5 +46,4 @@ myCoding.forEach( (item) => {
         
     }
 
-    
 })
