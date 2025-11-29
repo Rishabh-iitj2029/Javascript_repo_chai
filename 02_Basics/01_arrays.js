@@ -40,6 +40,6 @@ console.log(myn2)
 
 
 // slice => copies a portion of array from the original array
-// splice => remove a portion of array from the original array and removed part
+// splice => remove a portion of array from the original array and stores the removed part in the given variable
 
 
